@@ -1,0 +1,31 @@
+h1 {
+    font-weight: bold;
+    font-family: cursive;
+    font-size: 9vh;
+    color: rgb(193, 193, 193);
+    background-color: rgb(1, 32, 100);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.board {
+    display: flex;
+    justify-content: center;
+}
+td {
+    width: 20vh;
+    height: 20vh;
+    background-color: rgb(193, 193, 193);
+    text-align: center;
+    border: 3px solid rgb(1, 32, 100)
+}
+main {
+    background-color: rgb(1, 32, 100);
+}
+#playerTurn {
+    display: flex;
+    height: 4vh;
+    margin: 0;
+    color:rgb(193, 193, 193);
+    justify-content: center;
+}
